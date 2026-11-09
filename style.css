@@ -11,3 +11,34 @@
 .service-card:nth-child(3)::before{background-image:linear-gradient(0deg,#17181722,#17181722),url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1000&q=85')}
 .service-card>*{position:relative;z-index:1}
 @media(max-width:700px){.hero{background:linear-gradient(180deg,#10110ff0 0%,#10110fe0 50%,#10110f7d 100%),url('/taxi-premium.png') 60% center/cover no-repeat!important;min-height:700px}.service-card{padding-top:195px!important}}
+
+/* Premium accessibility: readable content on dark service cards */
+.service-card{color:#f8f6f0!important;border-color:#34342f!important}
+.service-card h3{color:#ffffff!important}
+.service-card p{color:#d0d0c8!important}
+.service-card .service-number{color:#e1c58d!important}
+.service-card .service-icon{color:#e5bf73!important}
+.service-card a{color:#f0cb83!important}
+.service-card a:hover{text-decoration:underline}
+.service-card:focus-within{outline:2px solid #e5bf73;outline-offset:2px}
+/* Explicit contrast for the remaining dark sections */
+.hero h1,.statement h2,.statement .benefits strong,footer .brand{color:#ffffff}
+.header nav a,.header .brand{color:#f7f5ef}
+.booking-form,.booking-form label{color:#24251f}
+
+/* Mobile hero: full-width taxi photo above legible content */
+@media (max-width:700px){
+ .hero{background:#11120f!important;padding:0 0 0!important;min-height:0!important;display:flex;flex-direction:column}
+ .hero::before{content:"";display:block;position:relative;width:100%;height:clamp(245px,70vw,420px);background:url('/taxi-premium.png') 53% 49%/cover no-repeat;flex-shrink:0}
+ .hero::after{content:"";position:absolute;top:clamp(200px,59vw,355px);left:0;right:0;height:80px;background:linear-gradient(transparent,#11120f);pointer-events:none}
+ .hero-inner{padding:18px 6% 0;max-width:100%;z-index:2}
+ .hero h1{font-size:clamp(39px,9vw,60px);line-height:1.08;margin:17px 0}
+ .hero-inner>p{font-size:14px;line-height:1.65;color:#e3e1d9}
+ .hero-actions{margin-top:24px;display:grid;grid-template-columns:1fr;gap:10px}
+ .hero-actions .btn{width:100%;justify-content:center;text-align:center;padding:17px 18px}
+ .hero-facts{margin-top:30px;padding-bottom:26px;gap:12px;flex-wrap:wrap;justify-content:flex-start}
+ .hero-facts div{min-width:80px;flex:1}
+ .hero-facts strong{font-size:17px}
+ .hero-bottom{padding:16px 6%;line-height:1.8;text-align:center}
+ .hero-bottom span{padding:0 7px}
+}

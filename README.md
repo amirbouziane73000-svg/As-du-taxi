@@ -1,1 +1,21 @@
-L’AS DU TAXI — site statique Vercel. Remplacez index.html, script.js et style.css sur GitHub. Les demandes ouvrent WhatsApp (+33 7 65 70 24 19) ou la messagerie (lasdutaxi73@gmail.com), avec confirmation manuelle par le client. Aucun envoi automatique côté serveur.
+# L'AS DU TAXI
+Site vitrine responsive statique, prêt pour Vercel.
+
+## Déploiement
+1. Décompresser le ZIP et placer les fichiers dans un dépôt GitHub.
+2. Dans Vercel, choisir **Add New → Project**, importer le dépôt.
+3. Framework preset: **Other**. Build command: laisser vide. Output directory: laisser vide.
+4. Cliquer sur **Deploy**.
+
+## Important avant mise en ligne commerciale
+- Configurer une vraie réception des demandes (API sécurisée / service de formulaires avec anti-spam et consentement). Le formulaire actuel affiche une demande à copier : il **n'envoie rien**.
+- Ajouter numéro de téléphone, e-mail, zones desservies, mentions légales, politique de confidentialité, informations professionnelles exactes.
+- Vérifier que les prestations annoncées correspondent aux autorisations et services réellement proposés.
+
+## Personnalisation
+`index.html` : textes et sections ; `style.css` : design ; `script.js` : comportement du formulaire.
+
+## Version visuelle premium
+- `taxi-premium.png` : visuel illustratif généré pour la démonstration (ne représente pas nécessairement le véhicule réel).
+- Les images aéroport et affaires sont chargées depuis Unsplash (connexion internet requise).
+- Pour mettre à jour le site : envoyer les fichiers modifiés `style.css`, `taxi-premium.png` sur GitHub à la racine du dépôt, puis valider les commits. Vercel redéploie automatiquement.
