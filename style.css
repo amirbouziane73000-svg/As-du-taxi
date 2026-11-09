@@ -42,3 +42,7 @@
  .hero-bottom{padding:16px 6%;line-height:1.8;text-align:center}
  .hero-bottom span{padding:0 7px}
 }
+
+/* Chambéry : repères géographiques et section dédiée */
+.local-area{background:#eae6dc;color:#191a18}.local-area h2,.local-area h3{color:#171815}.local-area .section-head p{color:#4b4b45}.local-area .kicker{color:#8c692d}.area-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:35px}.area-panel{background:#fff;border:1px solid #d6d0c5;border-radius:14px;padding:32px;display:flex;flex-direction:column;align-items:flex-start;gap:16px}.area-panel h3{font-size:clamp(23px,3vw,32px);line-height:1.2;margin:0}.area-panel p{color:#4b4b45;line-height:1.75;margin:0 0 12px}.area-label{font-size:11px;font-weight:800;letter-spacing:2px;color:#a77c39}.area-panel-dark{background:#1c1d1a;border-color:#34362f}.area-panel-dark h3{color:#fff}.area-panel-dark p{color:#d3d0c7}.area-panel-dark a{color:#e8c37b;font-weight:700}.hero .eyebrow{letter-spacing:2px}.hero h1 em{color:#e9c279}
+@media(max-width:700px){.area-grid{grid-template-columns:1fr}.area-panel{padding:25px}.hero .eyebrow{font-size:11px;letter-spacing:1.2px}}
