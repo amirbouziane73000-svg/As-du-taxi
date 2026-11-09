@@ -16,3 +16,11 @@ document.getElementById('bookingForm').addEventListener('submit',e=>{
   msg.textContent='Appuyez sur Envoyer dans WhatsApp pour transmettre votre demande.';
  }
 });
+
+// Préselection du service lorsque le visiteur clique sur une carte.
+document.querySelectorAll('[data-service]').forEach(link => {
+  link.addEventListener('click', () => {
+    const select = document.getElementById('service');
+    if (select) select.value = link.dataset.service;
+  });
+});
