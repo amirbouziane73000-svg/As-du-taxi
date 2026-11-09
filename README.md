@@ -14,3 +14,8 @@ Site vitrine responsive statique, prêt pour Vercel.
 
 ## Personnalisation
 `index.html` : textes et sections ; `style.css` : design ; `script.js` : comportement du formulaire.
+
+## Version visuelle premium
+- `taxi-premium.png` : visuel illustratif généré pour la démonstration (ne représente pas nécessairement le véhicule réel).
+- Les images aéroport et affaires sont chargées depuis Unsplash (connexion internet requise).
+- Pour mettre à jour le site : envoyer les fichiers modifiés `style.css`, `taxi-premium.png` sur GitHub à la racine du dépôt, puis valider les commits. Vercel redéploie automatiquement.
