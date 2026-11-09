@@ -89,3 +89,11 @@
 @media(max-width:370px){.service-photo-grid{grid-template-columns:1fr}.service-photo-card{min-height:275px}}
 
 .brand{display:flex;align-items:center;gap:9px}.brand-logo{width:64px;height:64px;object-fit:cover;object-position:center;border-radius:5px;flex-shrink:0}.brand-wordmark{display:flex;flex-direction:column;line-height:1.1}.brand-wordmark small{letter-spacing:.17em}.hero .eyebrow{max-width:100%;font-size:clamp(9px,1vw,12px);letter-spacing:.08em;line-height:1.7}@media(max-width:700px){.brand-logo{width:52px;height:52px}.brand-wordmark{font-size:20px}.hero .eyebrow{font-size:10px;line-height:1.65}}
+
+/* Simple gold ace-of-spades identity */
+.brand-spade{color:#e6ba62;font-size:clamp(38px,4vw,55px);line-height:1;text-shadow:0 1px 8px #b5823244;flex-shrink:0}.brand-wordmark{font-family:Georgia,serif;font-weight:700;letter-spacing:.035em;white-space:nowrap;font-size:clamp(17px,2vw,25px);color:#f8f4ec}.brand{gap:11px}.brand-logo{display:none}@media(max-width:650px){.brand-spade{font-size:37px}.brand-wordmark{font-size:16px}.brand{gap:6px}}
+
+/* Simple header identity: golden spade pictogram and brand name */
+.header .brand-spade{font-family:Georgia,serif;font-size:44px;color:#e7bd67;line-height:1;text-shadow:none}
+.header .brand-wordmark{font-family:Georgia,serif;font-size:clamp(17px,1.7vw,23px);font-weight:700;letter-spacing:.02em;color:#fff}
+@media(max-width:650px){.header .brand-spade{font-size:35px}.header .brand-wordmark{font-size:16px}}
