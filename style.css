@@ -97,3 +97,16 @@
 .header .brand-spade{font-family:Georgia,serif;font-size:44px;color:#e7bd67;line-height:1;text-shadow:none}
 .header .brand-wordmark{font-family:Georgia,serif;font-size:clamp(17px,1.7vw,23px);font-weight:700;letter-spacing:.02em;color:#fff}
 @media(max-width:650px){.header .brand-spade{font-size:35px}.header .brand-wordmark{font-size:16px}}
+
+/* Mobile only: show the banner photograph without the dark overlay.
+   Desktop styling remains unchanged. */
+@media (max-width: 700px) {
+  .hero { background-image: none !important; }
+  .hero::before {
+    background-image: url('/taxi-premium.png') !important;
+    background-color: transparent !important;
+    background-blend-mode: normal !important;
+    background-position: 70% 45% !important;
+  }
+  .hero::after { display: none !important; }
+}
