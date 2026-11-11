@@ -1,12 +1,11 @@
-# L’AS DU TAXI — Chambéry et ses alentours
+# L’AS DU TAXI — réservations e-mail automatiques
 
-Site de démonstration compatible Vercel. Version avec Opel noir, grande bannière ordinateur/mobile, section locale Chambéry et alentours, réservations WhatsApp et e-mail.
+Le bouton « Envoyer par e-mail » appelle `/api/reservation` sur Vercel. Il envoie la demande à **lasdutaxi73@gmail.com** via Resend, sans ouvrir Gmail. Le bouton WhatsApp reste inchangé.
 
-## Mise à jour GitHub
-À la racine du dépôt `As-du-taxi`, remplacer `index.html`, `style.css`, `script.js`, `taxi-premium.png` et `README.md`. Conserver `vercel.json`. Commit changes déclenche le redéploiement Vercel si le projet est connecté.
+## Configuration indispensable (une seule fois)
+1. Créer un compte sur https://resend.com et vérifier un domaine que vous possédez dans Resend (DNS SPF/DKIM selon leurs indications).
+2. Créer une clé API Resend.
+3. Dans Vercel > Project > Settings > Environment Variables, ajouter `RESEND_API_KEY` et `RESERVATION_FROM_EMAIL` (exemple : `L'AS DU TAXI <reservations@votre-domaine.fr>`). Ne jamais mettre la clé dans GitHub.
+4. Redéployer le projet sur Vercel. Tester une demande et vérifier la réception sur lasdutaxi73@gmail.com, y compris les spams.
 
-## Réservations
-WhatsApp : 07 65 70 24 19. E-mail : lasdutaxi73@gmail.com. Les boutons ouvrent les applications correspondantes avec un message prérempli. Le client doit confirmer l'envoi. Aucune réservation n'est confirmée automatiquement.
-
-## À valider avant lancement commercial
-Zones de service et prestations exactes, coordonnées et mentions légales. La photo de l'Opel est une illustration générée et non une photographie du véhicule réel.
+Sans ces variables, le formulaire affiche un message d'indisponibilité et le client peut utiliser WhatsApp. Les demandes ne sont pas des réservations confirmées. Le formulaire contient une protection basique contre les robots, mais pour une exposition importante, ajouter un CAPTCHA et une limitation de débit côté serveur.

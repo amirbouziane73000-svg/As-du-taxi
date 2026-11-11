@@ -110,3 +110,6 @@
   }
   .hero::after { display: none !important; }
 }
+
+.honeypot{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}
+.booking-actions button:disabled{opacity:.6;cursor:wait}
