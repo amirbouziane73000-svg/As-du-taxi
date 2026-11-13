@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://www.lasdutaxi.fr/</loc></url>
-<url><loc>https://www.lasdutaxi.fr/taxi-chambery</loc></url>
-<url><loc>https://www.lasdutaxi.fr/gares-aeroports</loc></url>
-<url><loc>https://www.lasdutaxi.fr/stations-ski</loc></url>
-<url><loc>https://www.lasdutaxi.fr/taxi-conventionne</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url><loc>https://www.lasdutaxi.fr/</loc><xhtml:link rel="alternate" hreflang="fr" href="https://www.lasdutaxi.fr/"/><xhtml:link rel="alternate" hreflang="en" href="https://www.lasdutaxi.fr/en/"/></url>
+<url><loc>https://www.lasdutaxi.fr/en/</loc><xhtml:link rel="alternate" hreflang="fr" href="https://www.lasdutaxi.fr/"/><xhtml:link rel="alternate" hreflang="en" href="https://www.lasdutaxi.fr/en/"/></url>
+<url><loc>https://www.lasdutaxi.fr/taxi-chambery</loc><xhtml:link rel="alternate" hreflang="fr" href="https://www.lasdutaxi.fr/taxi-chambery"/><xhtml:link rel="alternate" hreflang="en" href="https://www.lasdutaxi.fr/en/taxi-chambery"/></url>
+<url><loc>https://www.lasdutaxi.fr/en/taxi-chambery</loc><xhtml:link rel="alternate" hreflang="fr" href="https://www.lasdutaxi.fr/taxi-chambery"/><xhtml:link rel="alternate" hreflang="en" href="https://www.lasdutaxi.fr/en/taxi-chambery"/></url>
+<url><loc>https://www.lasdutaxi.fr/gares-aeroports</loc><xhtml:link rel="alternate" hreflang="fr" href="https://www.lasdutaxi.fr/gares-aeroports"/><xhtml:link rel="alternate" hreflang="en" href="https://www.lasdutaxi.fr/en/gares-aeroports"/></url>
+<url><loc>https://www.lasdutaxi.fr/en/gares-aeroports</loc><xhtml:link rel="alternate" hreflang="fr" href="https://www.lasdutaxi.fr/gares-aeroports"/><xhtml:link rel="alternate" hreflang="en" href="https://www.lasdutaxi.fr/en/gares-aeroports"/></url>
+<url><loc>https://www.lasdutaxi.fr/stations-ski</loc><xhtml:link rel="alternate" hreflang="fr" href="https://www.lasdutaxi.fr/stations-ski"/><xhtml:link rel="alternate" hreflang="en" href="https://www.lasdutaxi.fr/en/stations-ski"/></url>
+<url><loc>https://www.lasdutaxi.fr/en/stations-ski</loc><xhtml:link rel="alternate" hreflang="fr" href="https://www.lasdutaxi.fr/stations-ski"/><xhtml:link rel="alternate" hreflang="en" href="https://www.lasdutaxi.fr/en/stations-ski"/></url>
+<url><loc>https://www.lasdutaxi.fr/taxi-conventionne</loc><xhtml:link rel="alternate" hreflang="fr" href="https://www.lasdutaxi.fr/taxi-conventionne"/><xhtml:link rel="alternate" hreflang="en" href="https://www.lasdutaxi.fr/en/taxi-conventionne"/></url>
+<url><loc>https://www.lasdutaxi.fr/en/taxi-conventionne</loc><xhtml:link rel="alternate" hreflang="fr" href="https://www.lasdutaxi.fr/taxi-conventionne"/><xhtml:link rel="alternate" hreflang="en" href="https://www.lasdutaxi.fr/en/taxi-conventionne"/></url>
 </urlset>
